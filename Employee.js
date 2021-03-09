@@ -7,7 +7,7 @@ class Employee{
     }
     bonus(multiplier){
         const bonusVar = this.salary * multiplier;
-
+        return bonusVar;
     }
 }
 exports.Employee = Employee;

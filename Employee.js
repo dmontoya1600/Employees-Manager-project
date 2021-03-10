@@ -10,4 +10,6 @@ class Employee{
         return bonusVar;
     }
 }
-exports.Employee = Employee;
+module.exports = {
+    Employee: Employee
+}
